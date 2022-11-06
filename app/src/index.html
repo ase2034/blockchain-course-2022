@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    </head>
+    <body><h1>去中心化社团管理系统</h1>
+        <p>your address :<strong id="address">loding...</strong></p>
+        <p>your balance :<strong id="balance">loding...</strong></p>
+        <button onclick="App.reward()">刷新</button>
+        <h3>发起提案</h3>
+        <label>提案题目</label>
+        <input type="text" id="name"/>
+        <label>提案内容</label>
+        <input type="text" id="content"/>
+        <label>提案持续时间</label>
+        <input type="number" id="duration"/>
+        <br/>
+        <button onclick="App.theaddproposal()">确定</button>
+        <body>
+         <style>
+            table th{
+                border: 1px solid black;
+                width: 80px;
+                height: 40px;
+                text-align: center;
+                background-color: cornsilk;
+            }
+    
+            table td{
+               
+                border: 1px solid black;
+                width: 80px;
+                height: 40px;
+                text-align: center;
+    
+            }
+    
+        </style>
+         <table id="table" cellspacing="0">
+             <thead>
+                 <tr>
+                     <th>编号</th>
+                     <th>提案名称</th>
+                     <th>提案内容</th>
+                     <th>同意数</th>
+                     <th>反对数</th>
+                     <th>状态</th>
+                     <th>操作</th>
+                     <th>操作</th>
+                 </tr>
+             </thead>
+          
+             <tbody id="tboy">
+          
+             </tbody>
+         </table>
+         </body>
+         <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+         <script src="index.js"></script>
+    </body>   
+</html>

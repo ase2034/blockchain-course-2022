@@ -306,21 +306,21 @@ npm install -g truffle
 
 在truffle-config.js中，将port更改为自己区块链的端口。
 
-![image-20221106152314870](./picture\image-20221106152314870.png)
+![image-20221106152314870](https://user-images.githubusercontent.com/85682596/200160098-3d421786-8288-4235-8bcc-1e35418eaacf.png)
 
 在index.js的217行HttpProvider中同样更改为自己的区块链
 
-![image-20221106152436838](.\picture\image-20221106152436838.png)
+![image-20221106152436838](https://user-images.githubusercontent.com/85682596/200160118-1d51a320-853e-4ccc-b8a9-f4838d3ea51b.png)
 
 ##### 3.更改metamask
 
 打开metamask，选择导入账户。
 
-![image-20221106152550453](.\picture\image-20221106152550453.png)
+![image-20221106152550453](https://user-images.githubusercontent.com/85682596/200160126-6d535a42-f6a3-4e23-99fe-77019ae33e1b.png)
 
 打开ganache，查看任意区块链的私钥，将区块链地址的私钥导入
 
-![image-20221106152627961](./picture\image-20221106152627961.png)
+![image-20221106152627961](https://user-images.githubusercontent.com/85682596/200160134-dd4af2c3-ef34-4ef7-b24d-f580e6df35bc.png)
 
 ##### 4. 运行
 
@@ -344,26 +344,26 @@ npm run dev
 
 ##### 1.部署代码
 
-![image-20221106152314870](https://user-images.githubusercontent.com/85682596/200160053-14956ebe-0acc-4fae-aac8-3d0c015215e9.png)
+![image-20221106153037663](https://user-images.githubusercontent.com/85682596/200160145-a48a8770-c76e-4cdf-9910-6dd690275bc8.png)
 
 
 ##### 2. 打开前端页面
 
-![image-20221106153142049](.\picture\image-20221106153142049.png)
+![image-20221106153142049](https://user-images.githubusercontent.com/85682596/200160150-4880c3a3-ff9d-47f7-b577-f68482339bd2.png)
 
 ##### 3. 发起交易
 
-![image-20221106153220828](.\picture\image-20221106153220828.png)
+![image-20221106153220828](https://user-images.githubusercontent.com/85682596/200160154-860e9b02-1614-4c2e-ac57-f62c77b8ee76.png)
 
 ##### 4. 确认交易，界面显示成功
 
-![image-20221106153311083](.\picture\image-20221106153311083.png)
+![image-20221106153311083](https://user-images.githubusercontent.com/85682596/200160160-f564b5fc-4eb4-4b2a-847f-ed3439f7e25f.png)
 
 ##### 5.发起提案
 
-![image-20221106153356270](.\picture\image-20221106153356270.png)
+![image-20221106153356270](https://user-images.githubusercontent.com/85682596/200160163-0f40a18e-3030-48b9-9274-880571b624ea.png)
 
-![image-20221106153420226](.\picture\image-20221106153420226.png)
+![image-20221106153420226](https://user-images.githubusercontent.com/85682596/200160169-6b8e3536-5540-453a-a98b-598e1dda9c44.png)
 
 
 
@@ -371,14 +371,14 @@ npm run dev
 
 ##### 6.同意或反对
 
-![image-20221106153509518](.\picture\image-20221106153509518.png)
+![image-20221106153509518](https://user-images.githubusercontent.com/85682596/200160175-69de2f90-35d4-49ff-ab89-64d98d6d0997.png)
 
-![image-20221106153539509](.\picture\image-20221106153539509.png)
+![image-20221106153539509](https://user-images.githubusercontent.com/85682596/200160179-79db8fd7-cedf-4e6d-8283-f1b638fe7f34.png)
 
 
 
 ##### 7.刷新页面，获得奖励
 
-![image-20221106153621331](.\picture\image-20221106153621331.png)
+![image-20221106153621331](https://user-images.githubusercontent.com/85682596/200160187-1ece4436-efd0-4cb8-89a6-8dbb51bd4cf8.png)
 
-![image-20221106153642191](.\picture\image-20221106153642191.png)
+![image-20221106153642191](https://user-images.githubusercontent.com/85682596/200160190-19743226-2b2f-49cd-9922-5f149949acf5.png)

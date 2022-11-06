@@ -31,14 +31,15 @@ const App = {
 
   ready: async function()
   {
-  const {getaddress}=this.student.methods;
-  const {getBankBalance}=this.student.methods;
+  
+  
   const {blanceready}=this.student.methods;
-  const {initvote}=this.student.methods;
   await blanceready().send({from: this.account, gas:2000000000});
+  const {getaddress}=this.student.methods;
   const address=await getaddress().call();
   const theadress=document.getElementById("address");
   theadress.innerHTML=address.toString();
+  const {getBankBalance}=this.student.methods;
   const balance=await getBankBalance().call();
   const thbalance=document.getElementById("balance");
   thbalance.innerHTML=balance;

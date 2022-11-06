@@ -85,8 +85,8 @@ contract StudentSocietyDAO {
                 (proposals[index].startTime + proposals[index].duration)) &&
             (voter[index].ifvote == false)
         ) {
-            studentERC20.transfer(msg.sender, 50);
-            studentERC20.allow(msg.sender, 50);
+            studentERC20.transfer(proposals[index].proposer, 50);
+            studentERC20.allow(proposals[index].proposer, 50);
             proposals[index].disagree++;
             voter[index].ifvote = true;
         }

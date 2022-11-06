@@ -344,7 +344,8 @@ npm run dev
 
 ##### 1.部署代码
 
-![image-20221106153037663](.\picture\image-20221106153037663.png)
+![image-20221106152314870](https://user-images.githubusercontent.com/85682596/200160053-14956ebe-0acc-4fae-aac8-3d0c015215e9.png)
+
 
 ##### 2. 打开前端页面
 

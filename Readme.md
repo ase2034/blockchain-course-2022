@@ -306,21 +306,21 @@ npm install -g truffle
 
 在truffle-config.js中，将port更改为自己区块链的端口。
 
-![image-20221106152314870](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106152314870.png)
+![image-20221106152314870](./picture\image-20221106152314870.png)
 
 在index.js的217行HttpProvider中同样更改为自己的区块链
 
-![image-20221106152436838](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106152436838.png)
+![image-20221106152436838](.\picture\image-20221106152436838.png)
 
 ##### 3.更改metamask
 
 打开metamask，选择导入账户。
 
-![image-20221106152550453](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106152550453.png)
+![image-20221106152550453](.\picture\image-20221106152550453.png)
 
 打开ganache，查看任意区块链的私钥，将区块链地址的私钥导入
 
-![image-20221106152627961](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106152627961.png)
+![image-20221106152627961](./picture\image-20221106152627961.png)
 
 ##### 4. 运行
 
@@ -344,25 +344,25 @@ npm run dev
 
 ##### 1.部署代码
 
-![image-20221106153037663](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153037663.png)
+![image-20221106153037663](.\picture\image-20221106153037663.png)
 
 ##### 2. 打开前端页面
 
-![image-20221106153142049](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153142049.png)
+![image-20221106153142049](.\picture\image-20221106153142049.png)
 
 ##### 3. 发起交易
 
-![image-20221106153220828](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153220828.png)
+![image-20221106153220828](.\picture\image-20221106153220828.png)
 
 ##### 4. 确认交易，界面显示成功
 
-![image-20221106153311083](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153311083.png)
+![image-20221106153311083](.\picture\image-20221106153311083.png)
 
 ##### 5.发起提案
 
-![image-20221106153356270](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153356270.png)
+![image-20221106153356270](.\picture\image-20221106153356270.png)
 
-![image-20221106153420226](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153420226.png)
+![image-20221106153420226](.\picture\image-20221106153420226.png)
 
 
 
@@ -370,14 +370,14 @@ npm run dev
 
 ##### 6.同意或反对
 
-![image-20221106153509518](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153509518.png)
+![image-20221106153509518](.\picture\image-20221106153509518.png)
 
-![image-20221106153539509](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153539509.png)
+![image-20221106153539509](.\picture\image-20221106153539509.png)
 
 
 
 ##### 7.刷新页面，获得奖励
 
-![image-20221106153621331](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153621331.png)
+![image-20221106153621331](.\picture\image-20221106153621331.png)
 
-![image-20221106153642191](C:\Users\tp\AppData\Roaming\Typora\typora-user-images\image-20221106153642191.png)
+![image-20221106153642191](.\picture\image-20221106153642191.png)
